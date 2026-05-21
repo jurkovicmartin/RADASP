@@ -81,7 +81,7 @@ Convolutional Block Attention Module (**CBAM**) utilizes a dual attention mechan
 | | | | | | | | |
 | UNet++ | DenseNet-121 | Refined | 0.986 | 0.783 | 0.603 | 0.725 | 0.987 |
 | DASP | DenseNet-121 | Refined | 0.981 | 0.781 | 0.585 | 0.712 | 0.987 |
-| RADASP | DenseNet-121 | Original | 0.961 | 0.622 | 0.445 | 0.571 | 0.975 |
+| RADASP | DenseNet-121 | Initial | 0.961 | 0.622 | 0.445 | 0.571 | 0.975 |
 | **RADASP** | **DenseNet-121** | **Refined** | **0.982** | **0.795** | **0.599** | **0.726** | **0.986** |
 
 The provided table summarizes the results achieved from both RADASP development and baseline implementation. RADASP is primarily compared with UNet++, the top performer from the baseline. The results demonstrate a significant performance improvement over the baseline. Furthermore, a comparison of RADASP with UNet++ under identical conditions proved that RADASP still outperforms UNet++. This performance difference is reached by strategic architectural design, as RADASP achieved better performance despite being more lightweight.
